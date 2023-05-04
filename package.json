@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "protobufjs": "^7.2.3",
+    "readline-sync": "^1.4.10",
+    "request": "^2.88.2",
+    "steam-totp": "^2.1.2",
+    "steam-user": "^4.28.3"
+  }
+}
