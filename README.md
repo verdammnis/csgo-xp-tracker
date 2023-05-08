@@ -1,7 +1,7 @@
 # CSGO XP TRACKER
 
 - **XP gained per match**
-- **Current lvl**
+- **Current rank**
 - **Total player xp**
 - **Current medal (only supports year 23, but you can add support for your own in the util file)**
 - **Сounting how many days and hours are left until the medal**
@@ -14,7 +14,7 @@
 
 1) open cmd in the project folder and run the command ``npm i``
 2) adjust ``config.json``
-3) run ``node index.js``
+3) run ``node xp_tracker.js``
 
 # Config
 
@@ -22,7 +22,7 @@
 - `key`: Insert your Steam webkey you can  get [here](https://steamcommunity.com/dev/apikey). ``This is a required field you getting all the information about profile``
 - `steamid`: Steam64id of the profile you want to receive information. steam64id of the profile you can  get [here](https://steamdb.info/calculator/). ``This is a required field you getting all the information about  profile``
 - `generateAuthCode`: If you use 2fa and you have sharedsecret you can paste it into this field to avoid the line with SteamGuard input. ``If you do not have a shared secret, leave the field blank``
-- `account_id`: Account_id of the account from which all statistics will be taken (xp, lvl, etc). Account_id of the account you can  get [here](https://steamdb.info/calculator/). ``This is a required field to get all information about the account``
+- `account_id`: Account_id of the account from which all statistics will be taken (xp, rank, etc). Account_id of the account you can  get [here](https://steamdb.info/calculator/). ``This is a required field to get all information about the account``
 - `channeltosend`: Сhannel to which the logs will be output. To get the ID, right-click on the channel and click copy link, leaving the last 19 digits after the slash ``Is an optional field. Note that it works in conjunction with DiscordClient. If you want it to work you need to specify DiscordClient and channeltosend``
 - `details`
   - `accountName`: Your steam login. ``This is a required field``
